@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+body { 
+  background: #d9ceb2; 
+}
+
+textarea {
+  padding: 0px; 
+  background: transparent;
+  border: none; 
+  outline: none; 
+  font-size: 1.5rem; 
+  font-family: "Nothing You Could Do", cursive;
+  width: 100%;
+  resize: none;
+}
+
+p {
+  font-size: 1.5rem; 
+  font-family: "Nothing You Could Do", cursive;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.assistant {
+  font-weight: bold;
+  animation: fadeIn 2.5s; 
+}
